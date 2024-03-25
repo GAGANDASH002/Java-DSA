@@ -1,1 +1,1 @@
-#This repository has all concepts of Data Sttuctures in JAVA
+#This repository has all concepts of Data Structures in JAVA
