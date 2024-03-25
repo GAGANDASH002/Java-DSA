@@ -1,0 +1,15 @@
+             ITERABLE
+                |
+            COLLECTION
+   _____________|_______________              
+   |            |              |
+  LIST        QUEUE           SET
+             
+
+list interface(arraylist,linkedlist,vector->stack)
+
+queue interface(FIFO){priorityqueue,linkedlist,deque->arraydeque}
+
+set interface(hashset,linkedhashset,sortedset->treeset)
+
+map interface(hashmap,linkedhashmap,sortedmap->treemap,hashtable)
