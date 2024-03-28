@@ -1,4 +1,6 @@
-class ll{
+//Make a Linked List & add the following elements to it : (1, 5, 7, 3 , 8, 2, 3). Search for the number 7 & display its index.
+
+class LL{
     node head;
     class node{
         int data;
@@ -26,12 +28,26 @@ class ll{
     public void printLL(){
         node curr=head;
         while(curr!=null){
-            System.out.println(curr.data);
+            System.out.print(curr.data+"->");
             curr=curr.next;
         }
     }
+
+    public void search(int data){
+        int i =0;
+        node curr= head;
+        while(curr!=null){
+            if(curr.data==data){
+                System.out.println(data+"found at"+i);
+                return;
+            }
+            curr=curr.next;
+            i++;
+        }
+        System.out.println(data+"not found");
+    }
     public static void main(String[] args) {
-        ll list = new ll();
+        LL list = new LL();
         list.addlast(1);
         list.addlast(5);
         list.addlast(7); 
@@ -40,5 +56,6 @@ class ll{
         list.addlast(2);
         list.addlast(3);
         list.printLL();
+        list.search(7);
     }
 }
