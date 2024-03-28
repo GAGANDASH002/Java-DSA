@@ -39,4 +39,4 @@ class sol{
         return head;
 
     }
-}
+}   
