@@ -1,3 +1,5 @@
+package linkedlist;
+
 
 class singleLL{
     node head;
