@@ -3,7 +3,6 @@ package linkedlist;
 
 //Make a Linked List & add the following elements to it : (1, 5, 7, 3 , 8, 2, 3). Search for the number 7 & display its index.
 
-import java.util.LinkedList;
 
 class LL{
     node head;
